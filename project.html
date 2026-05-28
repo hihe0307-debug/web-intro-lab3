@@ -19,38 +19,159 @@ TODO: Tự viết website hoàn chỉnh, không nộp một file rỗng hoặc c
   <title>Mini-project 1: Website nhập môn Web căn bản</title>
 </head>
 <body>
+ 
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f4f6f9;
+      color:#222;
+      line-height:1.6;
+   }
+
+  header{
+    background:#0077cc;
+    color:white;
+    padding:20px;
+    text-align:center;
+  }
+
+  nav{
+    margin-top:10px;
+  }
+
+  nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+  }
+
+  nav a:hover{
+    text-decoration:underline;
+ }
+
+ .container{
+   width:90%;
+   max-width:1000px;
+   margin:30px auto;
+ }
+
+ .card{
+   background:white;
+   padding:20px;
+   margin-bottom:20px;
+   border-radius:10px;
+   box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+  color:#0077cc;
+  margin-bottom:10px;
+}
+
+h2{
+
+footer{
+  text-align:center;
+  background:#222;
+  color:white;
+  padding:15px;
+  margin-top:30px;
+}
+
+button{
+  background:#0077cc;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor:printer;
+  margin-top:10px;
+}
+
+button:hover{
+  background:#005fa3;
+}
+</style>
+</head>
+
+<body>
   
-     </header>
-          <h1>Nhập môn Web</h1>
-     </header>
+  <header>
+    <h1>Mini-prpject 1: Website nhập môn Web căn bản</h1>
 
-     <main>
+<nav>
+  <a href="internet">Internet</a>
+  <a href="website">Website</a>
+  <a href="browser">Browser</a>
+  <a hrtf="sever">Sever</a>
+</nav>
+</header>
+
+<div class="container">
+
+ <section class="card" id="internet">
+   <h2>Internet là gì?</h2>
+   <p>
+    Internet là hệ thống mạng máy tính toàn cầu giúp các thiết bị kết nối và trao đôi dữ liệu với nhau.
+   </p>
+</section>
+
+<section class="card">
+   <h2>Web là gì?</h2>
+   <p>
+     Web là tập hợp các trang web được liên kết với nhau thông qua Internet.
+   </p>
+ </section>
+
+ <section class="card" id="website">
+  <h2>Website và trang Web</h2>
+  </p>
+
+  <p>
+    Trang web là một trang riêng rẻ trong website.
+  </p>
+</section>
+
+<section class="card" id="browser">
+  <h2>Browser (Trình duyệt)</h2>
+  <p>
+    Browser là phần mềm dùng để truy cập website.
+  </p>
+
+<button onclick="showMessage()">
+    Bấm để xem thông báo 
+ </button>
+</section>
+
+<section class="card" id="sever">
+  <h2>Sever là gì?</h2>
+  <p>
+    Sever là máy chủ dùng để lưu trữ dữ liệu website.
+  </p>
+</section>
+
+ </div>
+
+ <footer>
+   <p>Mini-project Web cơ bản - HTML, CSS, JavaScript</p>
+ </footer>
+
+ <script src="js/script.js"></script>
+
+<script>
+  function showMessage(){
+    alert("Chào mừng bạn đến với mini-project Web cơ bản!");
+}
+</script>  
     
-        <section>
-            <h2>Web</h2>
-            <p>Dịch vụ truy cập thông tin trên Internet.</p>
-       </section>
-
-       <section>
-           <h2>Website và trang web</h2>
-           <p>Website gồm nhiều trang web.</p>
-      </section>
-
-      <section>
-           <h2>Browser và Sever</h2>
-           </p>
-               Browser dùng để truy cập web,
-               Sever dùng để lưu dữ liệu.
-           </p>
-      </section>
-
- </main>
-
-<footer>
-    <p>Mini-project Web cơ bản</p>
-</footer>
-
-<script src="js/script.js"></script>
-
 </body>
 </html>
