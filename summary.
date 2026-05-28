@@ -1,0 +1,49 @@
+<!-- TODO: Editor 5: Tóm tắt bằng semantic HTML
+Yêu cầu: Tạo trang dùng header, main, section, footer để tóm tắt vai trò Internet, Web, website, trang web.
+Gợi ý: Dùng cấu trúc HTML rõ ràng để chuẩn bị cho Bài 1.
+Không dán code vào editor chính. Hãy tự gõ, sau đó copy sang editor online để chạy thử. -->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO</title>
+  <!-- TODO: thêm CSS nội bộ hoặc liên kết css/style.css nếu đề yêu cầu -->
+</head>
+<body>
+ 
+    <header>
+       <h1>Internet và Web</h1>
+    </header>
+
+   <main>
+      
+      <section>
+          <h2>Internet</h2>
+          <p>
+             Web là dịch vụ hoạt động trên Internet
+          </p>
+      </section>
+
+      <section>
+          <h2>Website và trang web</h2>
+
+         <ul>
+            <li>Website gồm nhiều trang web.</li>
+            <li>Trang web là một nội dung.</li>
+            <li>
+                Internet và trang web giúp học tập,
+                tìm kiếm thông tin và giải trí
+            </li>
+        </ul>
+     </section>
+
+  </main>
+
+  <footer>
+     <p>Bài thực hành HTML</p>
+  </footer>
+         
+</body>
+</html>
